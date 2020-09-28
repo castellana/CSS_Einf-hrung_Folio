@@ -61,7 +61,7 @@ header {
 .header-figure {
     width: 30%;
     margin: auto;
-    padding: 50px 0 100px;
+    padding: 50px 0 160px;
 }
 .header__image {
     width: 100%;
@@ -71,17 +71,16 @@ header {
     font-size: 1.5rem;
     padding-top: 20px;
 }
-.header-caption {
+.header__captiontext {
     font-family: 'Athene';
 }
-
 /*SECTION ONE RELEASE*/
 #release {
     background: #F4C4C4;
     color: #282b29;
 }
 .section__number-left{
-    padding: 8%;
+    padding: 10vh 0 8vh 8%;
 }
 .title-left {
     text-align: left;
@@ -97,26 +96,24 @@ p {
     font-size: 1.2rem;
 }
 #release .section-p {
-    width: 34%; /*works 33%*/
-    margin-left: 50%;
+    width: 34%;
+    margin-left: 59%;
 }
-table {
-    width: 43%;
-    margin: 70px 0 0 90vh;
-    /* margin-left: 90vh;
-    margin-top: 70px; */
+.release__table {
+    width: 40%;
+    margin: 70px 0 0 53%;
 }
 th, tr td {
     border-bottom: 1px solid #282b29;
 }
 td:nth-of-type(1) {
-    width: 10%;
+    width: 8%;
     font-size: 0.8rem;
     text-align: left;
 }
 td:nth-of-type(2) {
     width: 75%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: left;
 }
 td:nth-of-type(3) {
@@ -131,9 +128,8 @@ th, td:nth-of-type(3) {
 }
 #release img {
     height: 140px;
-    padding: 10vh 0 10vh 80%;
+    padding: 7% 0 7% 85%;
 }
-
 /*SECTION TWO: WORKS*/
 #works {
     background: #DEB873;
@@ -141,7 +137,7 @@ th, td:nth-of-type(3) {
     padding-bottom: 10vh;
 }
 .section_number-right {
-    padding: 10vh 0 10vh 90%;
+    padding: 10vh 0 8vh 90%;
 }
 .title-right {
     text-align: right;
@@ -151,13 +147,13 @@ th, td:nth-of-type(3) {
 }
 #works .section-p {
     width: 33%;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 article {
     width: 88%;
     height: 50vh;
     margin-top: 20vh;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 article:last-child {
     margin-bottom: 20vh;
@@ -168,24 +164,20 @@ article:last-child {
 h3 { 
     font-size: 6rem;
     font-family: Athene;
-    width: 40%;
+    width: 45%;
 }
-/* .marconatto h2, .folio h2, .bored h2{
-    width: 70vh;
-} */ /*borré y sustituí por width: 40%*/
 .kollwitz {
     background: url(../img/kathe_cover-1.jpg) left / contain no-repeat;
-    text-align: right;
 }
 .kollwitz h3, .bored h3  {
-    margin-left: 60%; /*lo puse en lugar de kollwith 100vh y bored 85vh*/
+    margin-left: 55%;
+    text-align: right;
 }
 .folio {
     background: url(../img/bg-nicole-1.jpg) right / contain no-repeat;
 }
 .bored {
     background: url(../img/boa_cover-1.jpg) left / contain no-repeat;
-    text-align: right;
 }
 
 /*SECTION THREE: CONTACT*/
@@ -194,8 +186,8 @@ h3 {
     color: #1d8883;
 }
 .p-final {
-    width: 24%; /*works 33%*/
-    font-size: 1.5rem;
+    width: 26%;
+    font-size: 1.6rem;
     margin: 0 auto;
 }
 .footer {
