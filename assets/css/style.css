@@ -37,16 +37,10 @@ header {
     letter-spacing: 13px;
     font-weight: lighter;
 }
-.h1__header {
-    padding-top: 13vh;
-    width: 75%;
-    margin: auto;
-    border-bottom: 1px solid #002a5a;
-}
 .header-title {
-    padding-top: 13vh;
-    width: 75%;
-    margin: auto;
+    padding: 7% 12% 0;
+}
+.header-title__text {
     border-bottom: 1px solid #002a5a;
 }
 .dash { 
@@ -54,9 +48,6 @@ header {
     display: inline-block; 
     color:  #002a5a;
     padding: 0 50px;
-}
-.header-title:nth-of-type(2) {
-    padding-top: 1vh;
 }
 .header-figure {
     width: 30%;
